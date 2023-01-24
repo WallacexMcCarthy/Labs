@@ -1,0 +1,10 @@
+Pine     27
+Willow   10
+Oak      40
+Cherry   32
+Elm      5
+Birch   99
+RedWood  400
+Bush     22
+Fern     100
+Terracotta  22
