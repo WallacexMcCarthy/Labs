@@ -1,3 +1,10 @@
+/**
+ * This lab goes over try, catch statements.
+ *
+ * @author Wallace McCarthy
+ * @version 02/07/2023
+ */
+
 package lab05;
 
 import java.io.File;

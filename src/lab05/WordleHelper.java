@@ -1,3 +1,10 @@
+/**
+ * This lab goes over try, catch statements, as well as the substring methods in the String object class.
+ *
+ * @author Wallace McCarthy
+ * @version 02/07/2023
+ */
+
 package lab05;
 
 import java.io.File;
@@ -56,10 +63,4 @@ public class WordleHelper
     {
         return s.substring(0,position) + letter + s.substring(position + 1, s.length());
     }
-
-    public static void main(String[] args) {
-        System.out.println( replaceLetter("hello", 1, 'a'));
-    }
-
-
 }
