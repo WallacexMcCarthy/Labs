@@ -9,8 +9,17 @@ package assignment06;
 
 public class FractionTester
 {
+    public static int bar(int a)
+    {
+        return a;
+    }
+    public String foo(int i)
+    {
+        return i + "";
+    }
     public static void main(String[] args)
     {
+        System.out.println(new FractionTester().foo(bar(3)));
         System.out.println ("Fraction tester:");
         // Create a new fractions
         Fraction f = new Fraction (2, 3);
